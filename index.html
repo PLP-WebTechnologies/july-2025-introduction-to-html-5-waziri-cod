@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML5 Accessibility & SEO Basics Example</title>
+  <meta name="description" content="A simple, accessible, and SEO-friendly HTML5 web page demonstrating semantic structure and best practices.">
+</head>
+<body>
+  <header>
+    <h1>Welcome to HTML5 Accessibility & SEO Basics</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about" accesskey="a">About</a></li>
+        <li><a href="#features" accesskey="f">Features</a></li>
+        <li><a href="#contact" accesskey="c">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About This Page</h2>
+      <p>This page demonstrates how to use HTML5 semantic elements to create a well-structured, accessible, and SEO-friendly web page. It uses proper headings, landmarks, and descriptive content.</p>
+    </section>
+
+    <section id="features" aria-labelledby="features-heading">
+      <h2 id="features-heading">Key Features</h2>
+      <ul>
+        <li>Semantic HTML5 structure</li>
+        <li>Accessible navigation and landmarks</li>
+        <li>Logical heading hierarchy</li>
+        <li>SEO-friendly metadata and content</li>
+      </ul>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <address>
+        <p>Email: <a href="mailto:info@example.com">wazirishaban20@gmail.com</a></p>
+      </address>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 HTML5 Accessibility & SEO Basics. All rights reserved.</p>
+  </footer>
+</body>
+</html>
